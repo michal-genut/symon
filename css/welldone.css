@@ -1,0 +1,181 @@
+html 
+{
+   background-color: #f182a1;
+}
+h2
+{
+    text-align: center;
+    font-size: 150px;
+    animation: minus5moves 1s infinite ease-in-out;
+    font-family: Impact,' Haettenschweiler', Arial Narrow Bold, sans-serif;
+}
+
+
+
+.candiesjump {
+    opacity: 0.7;
+    display: block;
+    height: 17vh;
+    width: 10vw;
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 35px rgba(0,0,0,.6), 15px 15px 2px rgba(0, 0, 0, 0.31);
+    position: absolute;
+}
+.purple {
+    background-color: deepskyblue;
+}
+.green {
+    background-color: #ff2f69;
+}
+.pink {
+    background-color: yellow;
+}
+#b1 {
+    -webkit-animation: moveX 3.4s linear 0s infinite alternate, moveY 3s linear 0s infinite alternate;
+}
+
+#b2 {
+    background-color: #c34dff;
+    -webkit-animation: moveX 2.5s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
+}
+
+#b3 {
+    -webkit-animation: moveX 3s linear 0s infinite alternate, moveY 2.5s linear 0s infinite alternate;
+}
+
+#b4 {
+    -webkit-animation: moveX 4.5s linear 0s infinite alternate, moveY 3s linear 0.5s infinite alternate;
+}
+
+#b5 {
+    background-color: #c34dff;
+    -webkit-animation: moveX 1.5s linear 0s infinite alternate, moveY 4s linear 5s infinite alternate;
+}
+
+#b6 {
+    -webkit-animation: moveX 5.5s linear 0s infinite alternate, moveY 2.5s linear 0.9s infinite alternate;
+}
+
+#b7 {
+    -webkit-animation: moveX 4.9s linear 0s infinite alternate, moveY 3s linear 0s infinite alternate;
+}
+
+#b8 {
+    background-color: #ffaf1d;
+    -webkit-animation: moveX 3.8s linear 0s infinite alternate, moveY 4s linear 1.6s infinite alternate;
+}
+
+#b9 {
+    -webkit-animation: moveX 4.6s linear 0s infinite alternate, moveY 2.5s linear 5s infinite alternate;
+}
+
+#b10 {
+    -webkit-animation: moveX 2.3s linear 1s infinite alternate, moveY 4.9s linear 0s infinite alternate;
+}
+
+#b11 {
+    background-color: #ffaf1d;
+    -webkit-animation: moveX 3s linear 0s infinite alternate, moveY 1.8s linear 1s infinite alternate;
+}
+
+#b12 {
+    -webkit-animation: moveX 1.7s linear 0s infinite alternate, moveY 1.5s linear 2s infinite alternate;
+}
+
+#b13 {
+    background-color: #99ff29;
+    -webkit-animation: moveX 2s linear 1s infinite alternate, moveY 4s linear 1.5s infinite alternate;
+}
+
+#b14 {
+    -webkit-animation: moveX 3s linear 0s infinite alternate, moveY 0.5s linear 0.7s infinite alternate;
+}
+
+#b15 {
+    -webkit-animation: moveX 4.2s linear 0s infinite alternate, moveY 1s linear 0.9s infinite alternate;
+}
+
+#b16 {
+    background-color: #99ff29;
+    -webkit-animation: moveX 3.9s linear 0s infinite alternate, moveY 2s linear 4s infinite alternate;
+}
+
+#b17 {
+    -webkit-animation: moveX 4.8s linear 0s infinite alternate, moveY 5s linear 1.6s infinite alternate;
+}
+
+#b18 {
+    -webkit-animation: moveX 7s linear 0s infinite alternate, moveY 2s linear 5s infinite alternate;
+}
+
+
+@-webkit-keyframes moveX {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 97%;
+    }
+}
+
+@-webkit-keyframes moveY {
+    from {
+        top: 0%;
+    }
+
+    to {
+        top: 95%;
+    }
+}
+
+
+footer {
+    background-color: #eed0ead9;
+    /* background-image: linear-gradient(to right, #ea7b8f, #a2e097, #4e5dc7); */
+    height: 30px;
+    width: 100vw;
+    clear: both;
+    /* margin-top: 10px; */
+    position: absolute;
+    bottom: 0;
+    text-align:center;
+}
+#ournames {
+    font-size: larger;
+    font-family: serif;
+    animation: minus5moves 1s infinite ease-in-out;
+}
+@keyframes minus5moves {
+    0% {
+        text-shadow: 0px 0px 0px rgba(100,100,100,0.60);
+        transform: translateY(0px);
+        color: black;
+    }
+
+    25% {
+        text-shadow: 0px 1px 5px rgba(100,100,100,0.60);
+        transform: translateY(2px);
+        transform: scale(1.0);
+        color: white;
+    }
+
+    50% {
+        text-shadow: 0px 1px 10px rgba(243,233,116,0.10);
+        transform: translateY(-2px);
+        color: black;
+    }
+
+    75% {
+        text-shadow: 0px 15px 5px rgba(100,100,100,0.10);
+        transform: translateY(5px);
+        transform: scale(1.1);
+        color: white;
+    }
+
+    100% {
+        text-shadow: 0px 10px -0px rgba(100,100,100,0.60);
+        color: black;
+    }
+}
+

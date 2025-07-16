@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/game.css">
+    <link rel="stylesheet" href="../css/timer.css">
+</head>
+<body>
+    <header>
+        <h1> memorries</h1>
+    </header>
+  
+   
+    <div id="outside">
+        <div id="yellow" class="divColors yellow" onclick="colorClick(event)"></div>
+        <div id="green" class="divColors green" onclick="colorClick(event)"></div>
+        <div id="red" class="divColors red" onclick="colorClick(event)"></div>      
+        <div id="blue" class="divColors blue" onclick="colorClick(event)"></div>
+        <div id="pink" class="divColors pink" onclick="colorClick(event)"></div>
+        <div id="turkis" class="divColors turkis" onclick="colorClick(event)"></div>       
+        <div id="orang" class="divColors orang" onclick="colorClick(event)" ></div>
+        <div id="brown" class="divColors brown" onclick="colorClick(event)"></div>
+        <div id="purpule" class="divColors purpule" onclick="colorClick(event)"></div>
+    </div>
+  
+    <aside id="aside">
+     <h1 id="name">שם שחקן:</h1>
+     <h2 id="loginn"></h2>
+     <h1 id="si">points:0</h1>
+     <h1>שיאים</h1>
+     <div id="theSi"></div>
+     <div class="levelout">
+        <button id="level1" onclick="level(this.id)">רמה א</button>
+        <button id="level2" onclick="level(this.id)">רמה ב</button>      
+        <button id="level3" onclick="level(this.id)">רמה ג</button>
+        <div class="timer" id="timer">00:00</div> 
+        <button id="startButton" class="btn start-btn" >start</button>
+                    </div>
+    </aside>
+    
+     
+    
+    
+    <script src="../js/game.js" ></script>
+  
+
+</body>
+</html>
+
+

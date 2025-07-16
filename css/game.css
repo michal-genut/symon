@@ -1,0 +1,143 @@
+body
+{
+
+    height: 1000px;
+    /* width:1000px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  direction:rtl ;
+  text-align: center;
+  background-image: url(../תמונות/opacity.jpg);;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header
+{
+padding-top: 1%;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:70px;
+   color: aqua;
+  text-shadow: 4px 4px rgb(236, 84, 91);
+   text-align: center;
+   width: 100%;
+   height: 20%;
+   
+}
+h1
+{
+margin-bottom: 10px;
+display: flex;
+flex-wrap: wrap;
+}
+#outside
+{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ .divColors:hover
+{
+border: 4px solid;
+border-color:rgb(236, 84, 91) plrgb(245, 94, 245)rgb(96, 233, 96) ;
+}
+.divColors 
+{
+  height: 25%;
+    width: 20% ;
+    border:5px solid;
+    border-color: rgb(250, 127, 134) plum  lightgreen lightsalmon;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap:wrap;
+}
+#aside
+{
+    width: 20%;
+    height: 50%;
+  justify-content: center;
+    border: 20px double ;
+    border-color: rgb(250, 127, 134) plum  lightgreen lightsalmon;
+    border-radius: 10%;
+    position: absolute;
+   float: left;
+   left: 0%;
+   
+}
+.yellow
+{
+background-color: yellow;
+}
+.green
+{
+    background-color:rgb(152, 252, 2);
+}
+.red
+{
+    background-color: red;
+}
+.blue
+{
+    background-color: rgb(3, 3, 250);
+}
+.pink
+{
+    background-color: deeppink;
+}
+.turkis
+{
+    background-color: cyan;
+}
+.orang
+{
+    background-color:rgb(252, 71, 6);
+}
+.brown
+{
+    background-color: rgb(146, 53, 53);
+}
+.purpule
+{
+    background-color: rgb(131, 6, 248);
+}
+.white
+{
+    background-color: white;
+    
+}
+.lightskyblue
+{
+   background-color: black;
+
+}
+#level1
+{
+   background-color: lightblue; 
+   font-size: x-large;
+}
+#level2
+{
+  background-color: lightgreen;  
+  font-size: x-large;
+}
+#level3
+{
+    background-color: lightpink;
+    font-size: x-large;
+}
+button:hover
+{
+   color: crimson;
+}
+#si
+{
+    float: left;
+    display: flex;
+   flex-wrap:nowrap wrap;
+}

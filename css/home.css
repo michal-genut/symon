@@ -1,0 +1,34 @@
+body
+{
+width: 750px;
+height: 750px;
+background-image: url("../תמונות/background_1678961999.png");
+background-size: 100%;
+}
+div
+{
+    text-align: center;
+    font-size: larger;
+    color: #123456;
+    font-weight: bold;
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    padding-left: 95%;
+    padding-top: 20%;
+}
+p
+{
+font-size: xx-large;
+color:rgb(4, 4, 141);
+text-align: center;
+padding-left: 100px;
+}
+img 
+{
+    border: solid rgb(119, 7, 224) 2px;
+    border-radius: 10%;
+    width: 450px;
+    height: 450px;
+}
+

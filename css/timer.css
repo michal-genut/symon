@@ -1,0 +1,16 @@
+body {
+   
+    width: 1900px;
+    height: 1000px;
+   
+
+  }
+  
+   .timer-container {  text-align: center; margin-top: 20px; }
+
+  .timer { font-size: 48px; font-weight: bold; color: #333; margin-bottom: 10px; }
+  
+  .btn { padding: 5px 10px; margin: 0 5px; background-color: #008CBA; color: white; border: none; cursor: pointer; }
+  
+  .btn:hover { background-color: #005f6b}
+ 
